@@ -18,7 +18,7 @@ Git
 
 Getting Started:
 
-Clone the Repository: git clone https://github.com/your-username/product-management-system.git cd product-management-system
+Clone the Repository
 
 Set Up the Database:
     Start the PostgreSQL service and open the PostgreSQL shell: psql -U postgres
@@ -58,10 +58,3 @@ Authentication:
     POST /api/auth/register - Register a new user.
     POST /api/auth/login - Log in and get an authentication token.
 
-Usage:
-
-Register a new user or log in with an existing account.
-Once logged in, use the interface to manage your personal list of products.
-You can add, edit, or delete products, and changes will reflect in the PostgreSQL database.
-
-Deployment: You can deploy this project on platforms like Vercel (for frontend) and Render or Heroku (for backend) for full-stack deployment.
